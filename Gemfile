@@ -15,6 +15,7 @@ gem 'cancan'
 
 gem 'cells'
 gem 'slim', :require => 'slim/rails'
+gem 'tabulous', :git => 'https://github.com/techiferous/tabulous.git'
 
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 

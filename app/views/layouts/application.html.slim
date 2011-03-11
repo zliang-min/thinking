@@ -12,5 +12,5 @@ html
         = content_tag :div, msg, :id => "flash_#{name}"
       = content_tag :h1, yield(:title) if show_title?
       = yield
-      = javascript_include_tag :defaults
-      = yield :bottom
+    = javascript_include_tag :defaults, cache: :defaults
+    = yield :bottom

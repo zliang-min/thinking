@@ -1,4 +1,4 @@
-RailsAdminDemo::Application.routes.draw do
+Rails.application.class.routes.draw do
   devise_for :employees
 
   resources :articles

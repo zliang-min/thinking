@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/Gimi/devise_ldap_authenticatable.git
+  revision: 590d523ef7c8f0183b558c89bbbc6dbacefacf1f
+  specs:
+    devise_ldap_authenticatable (0.4.6)
+      devise (~> 1.1.2)
+      net-ldap (= 0.1.1)
+
+GIT
   remote: git://github.com/sferik/rails_admin.git
   revision: 42bdbb878cefac96a3d6a611515132a94d9b2266
   specs:
@@ -6,12 +14,13 @@ GIT
       builder (~> 2.1.0)
       rails (~> 3.0.3)
 
-PATH
-  remote: /home/gimi/projects/github/devise_ldap_authenticatable
+GIT
+  remote: https://github.com/techiferous/tabulous.git
+  revision: 94b549aebdc012533ccbc97cc57210c92cb17f98
   specs:
-    devise_ldap_authenticatable (0.4.6)
-      devise (~> 1.1.2)
-      net-ldap (= 0.1.1)
+    tabulous (1.0.1)
+      colored (~> 1.2.0)
+      rails (~> 3.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -51,6 +60,7 @@ GEM
     cells (3.5.5)
       actionpack (~> 3.0.0)
       railties (~> 3.0.0)
+    colored (1.2)
     columnize (0.3.2)
     daemons (1.1.0)
     devise (1.1.7)
@@ -135,4 +145,5 @@ DEPENDENCIES
   ruby-debug19
   slim
   sqlite3
+  tabulous!
   thin
