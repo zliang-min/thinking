@@ -1,0 +1,1 @@
+jquery-ujs/src/rails.js
